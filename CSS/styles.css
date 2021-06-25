@@ -1,294 +1,260 @@
- 
- /*----- index.html-----*/
+/*----- index.html-----*/
 
-:root{
---accent-color: #2196F3;
---main-font: "Roboto", sans-serif;
---secondary-font: "Raleway", sans-serif;
+:root {
+  --accent-color: #2196f3;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
-body{
-    Font-family: var(--main-font);
-    background-color: yellowgreen;
+body {
+  font-family: var(--main-font);
+  background-color: yellowgreen;
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
-.link{
-text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 /*=====HEADER====*/
 
-
 .logo {
-
-Font-family: var(--secondary-font));
-Font-size: 26px;
-Line-height: 1.19;
-Letter-spacing: 0.03;
-color: black;
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
 }
 
 .web-logo {
-color:var(--accent-color);
-
+  color: var(--accent-color);
 }
 
-.menu-link{
-
-
-Font-style: 500;
-Font-size: 14px;
-Line-height: 1.14;
-Letter-spacing: 0.02;
-color: #212121;
-cursor: pointer;
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  cursor: pointer;
 }
 
 .menu-link:hover,
-.menu-link:focus{
-color:var(--accent-color);
+.menu-link:focus {
+  color: var(--accent-color);
 }
 
-.menu-link.current{
-color:var(--accent-color);
+.menu-link.current {
+  color: var(--accent-color);
 }
 
-.mail-link{
-
-  
-    Font-style: 500;
-    Font-size: 14px;
-    Line-height: 1.14;
-    Letter-spacing: 0.02;
-    color: #757575;
-    cursor: pointer;
+.mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  cursor: pointer;
 }
-
 
 .mail-link:hover,
-.mail-link:focus{
-    color:var(--accent-color);
-    
+.mail-link:focus {
+  color: var(--accent-color);
 }
 
-
-.mail-link.current{
-    color:var(--accent-color);
-    
+.mail-link.current {
+  color: var(--accent-color);
 }
 
-.tel-link{
-
-  
-    Font-style: 500;
-    Font-size: 14px;
-    Line-height: 1.14;
-    Letter-spacing: 0.02;
-    color: #757575;
-    cursor: pointer;
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  cursor: pointer;
 }
-
 
 .tel-link:hover,
-.tel-link:focus{
-color:var(--accent-color);
+.tel-link:focus {
+  color: var(--accent-color);
 }
 
 /*=====END HEADER====*/
 
+/*=====HERO====*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/*=====END HERO====*/
+
+/*===ADVANTAGES===*/
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*===END ADVANTAGES===*/
+
+/*===SERVICES===*/
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*===END SERVICES===*/
+
+/*===OUR TEAM===*/
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-team-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*===END OUR TEAM===*/
+
+/*===FOOTER===*/
+
+.footer-adress {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+/*===END FOOTER===*/
+
+/*-----END index.html-----*/
+
+/*-----portfolio html-----*/
 
 /*=====HERO====*/
 
-.hero-title{
-Font-style: 900;
-Font-size: 44px;
-Line-height: 1.36;
-Letter spacing: 0.06;
-color: #FFFFFF;
+.modal-btn-portfolio {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
 }
 
-
-.modal-btn{
-    Font-style: 700;
-    Font-size: 16px;
-    Line-height: 1.87;
-    Align: Center;
-    Vertical align: Center;
-    Letter spacing: 0.06;
-    color: #FFFFFF;
-    background-color: #2196F3;
-    cursor: pointer;
-    }
-
-    /*=====END HERO====*/
-    
-    /*===ADVANTAGES===*/
-
-    .advantages-title{
-        Font-style: 700;
-        Font-size: 36px;
-        Line-height: 1.17;
-        Letter-spacing: 0.03;
-        color: #212121;
-    }
-    
-
-   .advantages-text{
-    Font-style: 400;
-    Font-size: 14px;
-    Line-height: 1.17;
-    Letter-spacing: 0.03;
-    color: #757575;
-   } 
-
-
-    /*===END ADVANTAGES===*/
-
-
-     /*===SERVICES===*/
-
-.services-title{
-    Font-style: 700;
-    Font-size: 36px;
-    Line-height: 1.17;
-    Letter-spacing: 0.03;
-    color: #212121;
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
-
-    /*===END SERVICES===*/
-
-
-    /*===OUR TEAM===*/
-
-    .our-team-title{
-    Font-style: 700;
-    Font-size: 36px;
-    Line-height: 1.17;
-    Letter-spacing: 0.03;
-    color: #212121;
-    }
-
-.our-team-person{
-
-    Font-style: 500;
-    Font-size: 16px;
-    Line-height: 1.19;
-    Letter-spacing: 0.03;
-    color: #212121;
+.modal-btn-portfolio.current {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
-.our-team-profession{
-    Font-style: 400;
-    Font-size: 16px;
-    Line-height: 1.19;
-    Letter-spacing: 0.03;
-
-    color: #757575;
+.hero-images-portfolio {
+  width: 370px;
+  height: 294px;
 }
-    /*===END OUR TEAM===*/
 
-    /*===FOOTER===*/
+.hero-images-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 
-    .footer-adress{
-        Font-style: 400;
-        Font-size: 14px;
-        Line-height: 1.71;
-        Letter-spacing: 0.03;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
+.hero-images-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-    .footer-mail{
-        Font-style: 400;
-        Font-size: 14px;
-        Line-height: 1.71;
-        Letter-spacing: 0.03;
-        color: rgba(255, 255, 255, 0.6);
-        cursor: pointer;
-    }
+/*=====END HERO====*/
 
-    .footer-tel{
-        Font-style: 400;
-        Font-size: 14px;
-        Line-height: 1.71;
-        Letter-spacing: 0.03;
-        color: rgba(255, 255, 255, 0.6);
-        cursor: pointer;
-    }
+/*===FOOTER===*/
 
+/*===END FOOTER===*/
 
-    
-    /*===END FOOTER===*/
-
-    /*-----END index.html-----*/
-
-
-    /*-----portfolio html-----*/
-
-
-    /*=====HERO====*/
-
-    
-
-
-
-    
-    .modal-btn-portfolio{
-    Font-family: Roboto;
-    Font-style: 500; 
-    Font-size: 16px;
-    Line-height: 1.62;
-    Letter-spacing: 0.03;
-    color: #212121;
-    cursor: pointer;
-        }
-
-    .modal-btn-portfolio:hover,
-    .modal-btn-portfolio:focus{
-        color:#FFFFFF;
-        background-color:var(--accent-color) ;
-    }
-
-
-    .modal-btn-portfolio.current{
-        color:#FFFFFF;
-        background-color:var(--accent-color);
-            }
-
-
-    .hero-images-portfolio{
-
-    Width:370px;
-    Height:294px;
-    }
-
-    .hero-images-title{
-    Font-style: 700;
-    Font-size: 18px;
-    Line-height: 2;
-    Letter-spacing: 0.06;
-    color: #212121;
-    }
-
-    .hero-images-text{
-    Font-style: 400;
-    Font-size: 16px;
-    Line-height: 1.87;
-    Letter-spacing: 0.03;
-    color: #757575;
-    }
-
- /*=====END HERO====*/
-
-
-  /*===FOOTER===*/
-
-
- /*===END FOOTER===*/
-
-   /*-----END portfolio html-----*/
+/*-----END portfolio html-----*/
