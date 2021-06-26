@@ -175,6 +175,12 @@ body {
 /*===FOOTER===*/
 
 .logo-link-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   color: var(--color-white);
 }
 
